@@ -23,7 +23,6 @@ While the model does not have very high accuracy overall, testing on **Matchdays
 | **Draw**        | 0.110 |
 | **Liverpool Win** | 0.690 |
 
----
 
 ### Man City vs Man United (14 Sept 2025)
 | Outcome        | Probability |
@@ -32,7 +31,6 @@ While the model does not have very high accuracy overall, testing on **Matchdays
 | **Draw**           | 0.150 |
 | **Man City Win**   | 0.580 |
 
----
 
 
 ---
@@ -41,7 +39,7 @@ While the model does not have very high accuracy overall, testing on **Matchdays
 - **GitHub:** [Adavyayay](https://github.com/Adavyayay)  
 - **Email:** adavya601@gmail.com  
 
----
+
 ⭐ If you like this project, don’t forget to **star** the repo!
 
 ---
@@ -62,7 +60,7 @@ We keep only the **core match outcome fields**:
 | `away_goals` | Full-time goals scored by away team    |
 | `result`     | Full-time result: `H`=Home win, `D`=Draw, `A`=Away win |
 
----
+
 # 🛠 Feature Engineering
 
 To predict future matches, we compute rolling statistics from each team’s last **N = 5** matches.
@@ -93,7 +91,6 @@ To predict future matches, we compute rolling statistics from each team’s last
 These 9 features are used to train the model.  
 The **target variable** is the match outcome (`result`).
 
----
 
 ## 🤖 Model
 
